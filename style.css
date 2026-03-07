@@ -198,3 +198,51 @@ body {
     padding: 3rem 2rem;
   }
 }
+/* Gallery Styles - Add to existing style.css */
+.gallery-section {
+  margin: 3rem 0;
+}
+
+.plot-container {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.plot-image {
+  max-width: 100%;      /* RESPONSIVE: scales to container */
+  height: auto;         /* Maintains aspect ratio */
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  margin-bottom: 1.5rem;
+}
+
+.plot-caption {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.plot-caption p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.plot-caption p:last-child {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Responsive image adjustments */
+@media (max-width: 600px) {
+  .plot-container {
+    padding: 1.5rem;
+  }
+  
+  .plot-caption p {
+    font-size: 1rem;
+  }
+}

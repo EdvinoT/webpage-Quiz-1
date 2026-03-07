@@ -45,3 +45,4 @@ ALL INTERACTIONS:
 ✓ .btn hover = black background + white text
 ✓ .card hover = shadow elevation + translateY(-2px)
 ✓ No content touches screen edges at any size
+
